@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="output-interface">
+            <p id="output"></p>
+        </div>
+        <div class="calculator">
+            <div class="row">
+                <input type="button" onclick="squareRootNum()" id="squareRootNum" value="√" />
+                <input type="button" onclick="squared()" id="squared" value="x²" />
+                <input type="button" onclick="plusMinus()" id="plusMinus" value="+/-" />
+                <button class="operators" onclick="division()" id="division">÷</button>
+            </div>
+            <div class="row">
+                <input type="button" onclick="seven()" id="seven" value="7" />
+                <input type="button" onclick="eight()" id="eight" value="8" />
+                <input type="button" onclick="nine()" id="nine" value="9" />
+                <button class="operators" onclick="multiplication()" id="multiplication">x</button>
+            </div>
+            <div class="row">
+                <input type="button" onclick="four()" id="four" value="4" />
+                <input type="button" onclick="five()" id="five" value="5" />
+                <input type="button" onclick="six()" id="six" value="6" />
+                <button class="operators" onclick="subtraction()" id="subtraction">-</button>
+            </div>
+            <div class="row">
+                <input type="button" onclick="one()" id="one" value="1" />
+                <input type="button" onclick="two()" id="two" value="2" />
+                <input type="button" onclick="three()" id="three" value="3" />
+                <button class="operators" onclick="addition()" id="addition">+</button>
+            </div>
+            <div class="row">
+                <input type="button" onclick="zero()" id="zero" value="0" />
+                <input type="button" onclick="dot()" id="dot" value="." />
+                <input type="button" onclick="ac()" id="ac" value="AC" />
+                <button onclick="equals()" id="equals">=</button>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
