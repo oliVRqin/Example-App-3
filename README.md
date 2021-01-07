@@ -1,3 +1,3 @@
-# Example-App-3
+# Calculator-App
 
-A calculator built with vanilla JavaScript from scratch. Some slight limitations in buttons and multiple number actions, but overall a fun Tuesday small project.
+A calculator built with vanilla JavaScript from scratch.
